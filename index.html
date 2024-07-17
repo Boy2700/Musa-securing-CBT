@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Video Monitoring For Enhancing Examination Integrity</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <center>
+        <nav>
+
+            <div id="video-background ">
+                <video autoplay muted loop id="myVideo ">
+                <source src="cbt.mp4 " type="video/mp4 ">
+               
+            </video>
+            </div>
+            <br>
+
+            <div claas="video">
+                <h4 class="video">VIDEO MONITORING SYSTEM</h4>
+            </div>
+        </nav><br>
+    </center>
+    <hr>
+    <div class="container ">
+
+        <div class="cover ">
+            <div class="front ">
+                <img src="https://media.istockphoto.com/id/1437824160/photo/above-typing-and-hands-of-a-business-woman-with-a-computer-for-work-on-the-internet-at-a-desk.jpg?s=612x612&w=0&k=20&c=-XMMbKbZ3AZUEnh4jmD2ab2RQSv9WtJyyTc16Y-V8Ms=" alt=" ">
+                <div class="text ">
+                    <span class="text-1 ">Securing CBT<br> Video Monitoring for </span>
+                    <span class="text-2 ">Enhancing Examination Integrity</span>
+                </div>
+            </div>
+            <div class="back ">
+                <!--<img class="backImg " src="images/backImg.jpg " alt=" ">-->
+                <div class="text ">
+                    <span class="text-1 ">Complete miles of journey <br> with one step</span>
+                    <span class="text-2 ">Let's get started</span>
+                </div>
+            </div>
+        </div>
+        <div class="forms ">
+            <div class="form-content ">
+                <div class="login-form ">
+                    <div class="title ">Login</div>
+
+
+
+
+                    <form id="login-form">
+                        <div class="input-boxes">
+                            <div class="input-box">
+                                <i class="fas fa-envelope"></i>
+                                <input type="text" id="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="input-box">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" id="password" placeholder="Enter your password" required>
+                            </div>
+                            <div class="button input-box">
+                                <button type="submit" class="btn btn-outline-secondary">Login</button>
+                            </div>
+                        </div>
+                    </form>
+
+
+
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <center>
+                    <p class="text-center">All rights reserved &copy; 2024 Securing Computer Base Test <br>Video Monitoring System for Enhancing Examination Integrity</p>
+                    <a href=" # ">Musa Shifau Oyiza</a>
+                    </p>
+                </center>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+    <script>
+        document.getElementById('login-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+            if (email === 'musa@gmail.com' && password === 'musa') {
+                alert('Login successful!');
+                window.location.href = "home.html"; // Redirect to home page upon successful login
+            } else {
+                alert('Incorrect email or password!');
+            }
+        });
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js "></script>
+</body>
+
+
+</html>
